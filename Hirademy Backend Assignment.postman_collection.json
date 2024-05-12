@@ -28,12 +28,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/api/assistants/get_assistant/1",
+			"name": "http://localhost:3000/api/assistants/get_assistant/5",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/assistants/get_assistant/1",
+					"raw": "http://localhost:3000/api/assistants/get_assistant/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -43,7 +43,7 @@
 						"api",
 						"assistants",
 						"get_assistant",
-						"1"
+						"5"
 					]
 				}
 			},
@@ -56,7 +56,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\":\"Shantanu Dhar\",\r\n    \"email\":\"shantanudhar@gmail.com\",\r\n    \"phone\":9903421,\r\n    \"salary\":50000,\r\n    \"city\":\"Goregaon\",\r\n    \"country\":\"INDIA\",\r\n    \"department\":\"Marketing\",\r\n    \"role\":\"assistant\"\r\n}",
+					"raw": "{\r\n    \"name\":\"Rahul Kumar\",\r\n    \"email\":\"rahulkumar@gmail.com\",\r\n    \"phone\":99843256,\r\n    \"salary\":50000,\r\n    \"city\":\"Chennai\",\r\n    \"country\":\"INDIA\",\r\n    \"department\":\"IT\",\r\n    \"role\":\"assistant\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -80,13 +80,13 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/api/assistants/update_assistant/5",
+			"name": "http://localhost:3000/api/assistants/update_assistant/7",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"Shantanu Dhar\",\r\n    \"email\": \"shantanudhar@gmail.com\",\r\n    \"phone\": 9903421,\r\n    \"salary\": 50000,\r\n    \"city\": \"Chicago\",\r\n    \"country\": \"USA\",\r\n    \"department\": \"Marketing\",\r\n    \"role\": \"assistant\"\r\n}",
+					"raw": "{\r\n        \"name\":\"Roushan Kumar\",\r\n    \"email\":\"roushankumar@gmail.com\",\r\n    \"phone\":99843256,\r\n    \"salary\":50000,\r\n    \"city\":\"Chennai\",\r\n    \"country\":\"INDIA\",\r\n    \"department\":\"IT\",\r\n    \"role\":\"assistant\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +94,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/assistants/update_assistant/5",
+					"raw": "http://localhost:3000/api/assistants/update_assistant/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -104,19 +104,19 @@
 						"api",
 						"assistants",
 						"update_assistant",
-						"5"
+						"7"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/api/assistants/delete_assistant/1",
+			"name": "http://localhost:3000/api/assistants/delete_assistant/7",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/assistants/delete_assistant/1",
+					"raw": "http://localhost:3000/api/assistants/delete_assistant/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -126,7 +126,7 @@
 						"api",
 						"assistants",
 						"delete_assistant",
-						"1"
+						"7"
 					]
 				}
 			},
