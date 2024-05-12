@@ -107,7 +107,7 @@ Copy paste or run the `assistant_model.sql`  in the `models` folder to create th
         * Error message if deletion fails.
 
 
-## Project Structure (if applicable)
+## Project Structure
 
 * **Root Directory (index.js):**
     * Contains the main entry point (index.js) that initializes the Express app, configures middleware, registers routes, and starts the server.
