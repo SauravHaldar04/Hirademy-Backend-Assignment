@@ -114,11 +114,11 @@ Copy paste or run the `assistant_model.sql`  in the `models` folder to create th
 * **Config Directory:**
     * Contains `connection.js` to connect to the MySQL database.
 * **Controllers Directory:**
-    * It contains a controller for a specific functionality  `assistantsController.js`. It handles requests and interact with models.
+    * It contains a controller for a specific functionality  `assistantController.js`. It handles requests and interact with models.
 * **Models Directory:**
     * It represents a database model `assistant_model.sql`. IT define the schema for data.
 * **Routes Directory:**
-    * It represents a group of related routes in `assistantsRoutes.js`. It define API endpoints and map them to controller functions.
+    * It represents a group of related routes in `assistantRoutes.js`. It define API endpoints and map them to controller functions.
 
 
 ## Contributing
