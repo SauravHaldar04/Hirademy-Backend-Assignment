@@ -1,5 +1,5 @@
 import express from 'express';
-import{getAllAssistants, getAssistantById, createAssistant, updateAssistant, deleteAssistant} from '../controllers/connection.js';
+import{getAllAssistants, getAssistantById, createAssistant, updateAssistant, deleteAssistant} from '../controllers/assistantController.js';
 const router = express.Router();
 
 router.get('/get_assistants',(async (req, res) => {
