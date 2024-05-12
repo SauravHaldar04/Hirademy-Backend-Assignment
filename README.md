@@ -107,43 +107,7 @@ Copy paste or run the `assistant_model.sql`  in the `models` folder to create th
         * Error message if deletion fails.
 
 
-## Error Handling
-
-Describe how the API handles errors and the format of error responses. This might include details about error codes and corresponding messages returned by the API.
-
-
 ## Project Structure (if applicable)
-
-## Hirademy Backend Assignment
-
-This Node.js, Express.js, and MySQL project provides CRUD (Create, Read, Update, Delete) operations for managing assistants within the Hirademy ecosystem.
-
-**Prerequisites:**
-
-* Node.js and npm (or yarn)
-* MySQL database server
-
-**Installation:**
-
-1. Clone the repository
-2. Navigate to the project directory
-3. Install dependencies (npm install or yarn install)
-
-**Configuration:**
-
-1. Create a `.env` file in the root directory.
-2. Add environment variables for database connection details.
-
-**Usage:**
-
-1. Start the server (npm start or yarn start)
-2. The server will typically start on port 3000 (modify `PORT` in `server.js` if needed). Use tools like Postman or cURL to interact with the API.
-
-**API Endpoints:**
-
-Refer to the code for specific API endpoints and their functionalities.
-
-**Project Structure:**
 
 * **Root Directory (index.js):**
     * Contains the main entry point (index.js) that initializes the Express app, configures middleware, registers routes, and starts the server.
